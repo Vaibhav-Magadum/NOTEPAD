@@ -47,7 +47,7 @@ menu_bar.add_cascade(label="File", menu=file_menu)
 edit_bar = tk.Menu(root)
 edit_bar.add_command(label="Cut", command=cut_text)
 edit_bar.add_command(label="Copy", command=copy_text)
-edit_bar.add_command(label="Paste", command=paste_text)  # Add the command for Paste
+edit_bar.add_command(label="Paste", command=paste_text) 
 menu_bar.add_cascade(label="Edit", menu=edit_bar)
 
 root.config(menu=menu_bar)
